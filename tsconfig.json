@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "outDir": "./build",
+    "lib": ["ES6", "DOM"],
+    "esModuleInterop": true,
+    "strict": true,
+    "allowJs": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler"
+  },
+  "include": ["src/**/*", "config/**/*"],
+  "exclude": ["node_modules", "build"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}

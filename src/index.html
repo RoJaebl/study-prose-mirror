@@ -4,22 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ProseMirror Editor</title>
-    <style>
-      .ProseMirror {
-        position: relative;
-        word-wrap: break-word;
-        white-space: pre-wrap;
-        -webkit-font-variant-ligatures: none;
-        font-variant-ligatures: none;
-        padding: 4px 8px;
-        line-height: 1.2;
-        outline: none;
-        background-color: #eee;
-      }
-    </style>
   </head>
-  <body>
-    <div class="ProseMirror" id="editor"></div>
+  <body class="bg-gray-50">
+    <div class="container mx-auto px-4 py-8">
+      <div id="editor" class="bg-white shadow-lg"></div>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>

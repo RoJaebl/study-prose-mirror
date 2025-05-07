@@ -7,13 +7,20 @@
     "strict": true,
     "allowJs": true,
     "module": "ESNext",
-    "moduleResolution": "bundler"
+    "moduleResolution": "bundler",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "environment/*": ["./environment/*"],
+      "config/*": ["./config/*"]
+    }
   },
-  "include": ["src/**/*", "config/**/*"],
+  "include": ["src/**/*", "config/**/*", "environment/env.ts"],
   "exclude": ["node_modules", "build"],
   "ts-node": {
     "compilerOptions": {
       "module": "CommonJS"
-    }
+    },
+    "require": ["tsconfig-paths/register"]
   }
 }

@@ -3,4 +3,4 @@ import { EditorState } from "prosemirror-state";
 import { EditorView } from "prosemirror-view";
 
 let state = EditorState.create({ schema });
-let view = new EditorView(document.querySelector('#editor')!, { state });
+let view = new EditorView(document.querySelector("#editor")!, { state });

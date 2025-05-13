@@ -20,6 +20,7 @@
     "mini-css-extract-plugin": "^2.9.2",
     "postcss": "^8.4.31",
     "postcss-loader": "^7.3.3",
+    "prosemirror-example-setup": "^1.2.3",
     "sass": "^1.87.0",
     "sass-loader": "^16.0.5",
     "style-loader": "^4.0.0",
@@ -35,8 +36,10 @@
     "zod": "^3.24.4"
   },
   "dependencies": {
+    "prosemirror-commands": "^1.7.1",
     "prosemirror-history": "^1.4.1",
     "prosemirror-keymap": "^1.2.3",
+    "prosemirror-menu": "^1.2.5",
     "prosemirror-schema-basic": "^1.2.4",
     "prosemirror-state": "^1.4.3",
     "prosemirror-view": "^1.38.1"
